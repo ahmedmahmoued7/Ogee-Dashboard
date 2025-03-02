@@ -1,0 +1,333 @@
+.Container_SecondPage {
+  display: flex;
+  flex-direction: column;
+  padding: 1.8vw;
+  gap: 32px;
+  background-color: #f8f9fa;
+  flex: 1;
+}
+
+.Details_Head_Container {
+  display: flex;
+  align-items: center;
+  gap: 1.8vw;
+  justify-content: flex-start;
+}
+.Details_Path_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7vw;
+  color: #6c757d;
+  padding-left: 1.5vw;
+}
+.Details_Path_Container a:visited,
+.Details_Path_Container a:active,
+.Details_Path_Container a {
+  text-decoration: none;
+  color: #007bff;
+}
+.SecondPage_Container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #fff;
+}
+.Add_Room_SecondPage {
+  font-size: 1.5vw;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #343a40;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.Field_Container_SecondPage {
+  height: 55vw;
+  border-radius: 5px;
+  padding: 1.5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8vw;
+  position: relative;
+}
+.Form2_Contain_L1_SecondPage {
+  display: flex;
+  background-color: transparent;
+  gap: 0.7vw;
+  width: 100%;
+}
+.Input_Box,
+.Form_Box_SecondPage {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  background: transparent;
+  gap: 0.8vw;
+  height: 2.5vw;
+}
+.Form_Box_WallColor {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  background: transparent;
+  gap: 10px;
+  height: 5vh;
+}
+h3 {
+  font-size: 0.9vw;
+  width: 9vw;
+  background: transparent;
+}
+
+.InputForm2_SecondPage {
+  padding: 0.5vw 0.5vw;
+  border-radius: 2px;
+  border: 1px solid #ced4da;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  width: 14vw;
+}
+
+.Select_Box_SecondPage {
+  line-height: 1.5;
+  height: 2.5vw;
+  width: 14vw;
+  color: black;
+}
+.MultiSelect_Box_SecondPage {
+  width: auto;
+}
+
+.N_Button_SecondPage,
+.B_Button_SecondPage {
+  position: absolute;
+  width: 5vw;
+  top: 92%;
+  right: 3%;
+  cursor: pointer;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  padding: 0.5vw 0.5vw;
+  font-size: 0.9vw;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+.B_Button_SecondPage {
+  left: 3%;
+  right: 0;
+}
+.SubMit_SecondPage {
+  color: wheat;
+}
+.Form_Box_SecondPage_TextArea {
+  display: flex;
+  align-items: center;
+  gap: 0.7vw;
+}
+
+.SecondPage_Taps {
+  display: flex;
+  gap: 1vw;
+  padding: 1.3vw;
+  padding-bottom: 0;
+  border-bottom: 2px solid #dee2e6;
+}
+.Taps_Container {
+  border-color: #dee2e6 #dee2e6 #fff;
+  background-color: #fff;
+
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  padding: 1vw;
+  color: #007bff;
+  cursor: pointer;
+}
+.Taps_Container,
+.Taps_Container:active,
+.Taps_Container:visited {
+  text-decoration: none;
+}
+
+.Taps_Container.active {
+  border: 2px solid #dee2e6;
+  border-bottom: none;
+  z-index: 1000;
+}
+.Doors_Container {
+  height: auto;
+  border-radius: 5px;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vw;
+}
+.Doors_Head_Container {
+  font-size: 1vw;
+  font-weight: 700;
+  color: #64748b;
+  padding: 0.7vw;
+  padding-left: 1.5vw;
+  display: flex;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+}
+.Doors_Head {
+  width: 15.2vw;
+}
+
+.Form_Box_Doors {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  background: transparent;
+  height: 5vh;
+  padding: 0.75vw;
+  padding-left: 1.5vw;
+}
+.Form_Button_Doors {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  background: transparent;
+  height: 5vh;
+  padding: 0.75vw;
+}
+.Select_Box_Doors {
+  line-height: 1.5;
+  height: 5vh;
+  width: 12vw;
+  color: black;
+}
+
+.Doors_Buttons_Container {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #dee2e6;
+}
+.Windows_Buttons_Container {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #dee2e6;
+}
+.Door_Button_Remove {
+  padding: 0px 5px;
+  height: 5vh;
+  margin: 10px;
+  background-color: #dc3545;
+  border-radius: 0.25rem;
+  color: white !important;
+  border: 1px solid #dc3545;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-size: 16px;
+}
+.Doors_End_Container {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 100px;
+}
+.Door_Button_Add {
+  padding: 5px 10px;
+  height: 5vh;
+  margin: 20px;
+  background-color: #f8f9fa;
+  border-radius: 0.25rem;
+  color: #444 !important;
+  border: 1px solid #ddd;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-size: 16px;
+}
+
+.Images_Head_Container {
+  font-size: 16px;
+  font-weight: 700;
+  color: #64748b;
+  padding: 0.75rem;
+  padding-left: 30px;
+  display: flex;
+  gap: 20vw;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.Input_Images {
+  font-size: 14px;
+  color: #dc3545;
+}
+.Images_Buttons_Container {
+  display: flex;
+  align-items: center;
+  height: 150px;
+  gap: 45px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #dee2e6;
+}
+.Form_Images_Box {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  background: transparent;
+  height: 5vh;
+  padding: 0rem;
+  padding-left: 28px;
+  width: 20vw;
+}
+.Form_Images_Box_Preivew {
+  padding: 0;
+  margin: 0;
+  width: 25vw;
+}
+.Images_Button_Remove {
+  padding: 0px 5px;
+  height: 5vh;
+  margin: 10px;
+  /* margin-left: 150px; */
+  background-color: #dc3545;
+  border-radius: 0.25rem;
+  color: white !important;
+  border: 1px solid #dc3545;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-size: 16px;
+}
+.Images_End_Container {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 100px;
+}
+.Images_Button_Add {
+  padding: 5px 10px;
+  height: 5vh;
+  margin: 20px;
+  background-color: #f8f9fa;
+  border-radius: 0.25rem;
+  color: #444 !important;
+  border: 1px solid #ddd;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-size: 16px;
+}
+.ChromePicker {
+  position: absolute;
+  left: 12.8vw;
+  top: 6vh;
+  z-index: 999;
+}
+.ql-editor {
+  min-height: 9vw;
+  max-height: 9vw;
+  font-family: Arial, sans-serif;
+  font-size: 0.8vw;
+}
+
+.ql-toolbar {
+  background-color: #f0f0f0;
+}

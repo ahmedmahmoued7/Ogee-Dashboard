@@ -1,0 +1,73 @@
+{
+  "name": "ogee",
+  "version": "0.1.0",
+  "author": {
+    "name": "Ahmed Mahmoued Mohamed Elagrode",
+    "email": "ahmedelagrode7@gmail.com"
+  },
+  "private": true,
+  "dependencies": {
+    "@react-pdf/renderer": "^3.4.4",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "array-move": "^4.0.0",
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "browser-image-compression": "^2.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "html-pdf": "^3.0.1",
+    "html-to-pdfmake": "^2.5.13",
+    "html2canvas": "^1.4.1",
+    "html2pdf.js": "^0.10.2",
+    "intersection-observer": "^0.12.2",
+    "js-cookie": "^3.0.5",
+    "jspdf": "^2.5.1",
+    "react": "^18.2.0",
+    "react-burger-menu": "^3.0.9",
+    "react-color": "^2.19.3",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.2.1",
+    "react-pro-sidebar": "^1.1.0",
+    "react-quill": "^2.0.0",
+    "react-responsive": "^10.0.0",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.8.0",
+    "react-sortable-hoc": "^2.0.0",
+    "react-toastify": "^10.0.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/preset-env": "^7.23.6",
+    "@babel/preset-react": "^7.23.3",
+    "file-loader": "^6.2.0"
+  }
+}

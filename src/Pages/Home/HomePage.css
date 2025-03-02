@@ -1,0 +1,241 @@
+* {
+  font-family: Poppins-Regular;
+}
+.home-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  color: #333;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f5f5f5;
+  padding-bottom: 20px;
+  margin-top: -10px;
+}
+
+.hero-section h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.overview-section,
+.data-analysis-section,
+.features-section {
+  padding: 50px 0;
+  padding-bottom: 0;
+}
+.overview-section h2,
+.hero-section h1,
+.features-section h2 {
+  color: #054d3e;
+}
+.overview-section .overview-content,
+.features-section .features-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.overview-section img {
+  max-width: 500px;
+}
+
+.overview-section .overview-text {
+  max-width: 500px;
+}
+
+.data-analysis-section .data-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.data-card {
+  background-color: #f5f5f5;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 10px;
+  flex: 1 1 200px;
+  text-align: center;
+  color: #007bff;
+}
+.data-card:hover {
+  background-color: #054d3e;
+  color: #fff;
+}
+.data-card p {
+  font-size: 40px;
+}
+.data-card:hover p {
+  color: #fff;
+}
+.data-card h3 {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.features-section {
+  margin-top: -10px;
+}
+
+.features-section .features-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature-box,
+.feature-box a,
+.feature-box a:active,
+.feature-box a:visited {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 10px;
+  flex: 1 1 200px;
+  min-height: 150px;
+  height: auto;
+  text-decoration: none;
+  color: #007bff;
+}
+.feature-box:hover {
+  background-color: #054d3e;
+  color: #fff;
+}
+.feature-box:hover p {
+  color: #fff;
+}
+.feature-box h3 {
+  margin-bottom: 10px;
+}
+.OgeeLogoHome {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.Rooms_Header_Home {
+  margin-top: -30px;
+}
+.slide_img {
+  width: 400px;
+  min-width: 400px;
+  max-width: 400px;
+  height: 300px;
+}
+
+.container {
+  text-align: center;
+}
+
+/*  */
+
+/*  */
+.Main_loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  position: relative;
+}
+.loader2 {
+  -webkit-perspective: 300px;
+  perspective: 300px;
+}
+
+.loader2 > span {
+  font-size: 30px;
+  display: inline-block;
+  animation: flip 2.6s infinite linear;
+  transform-origin: 0 70%;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  font-weight: 700;
+}
+
+@keyframes flip {
+  35% {
+    transform: rotateX(360deg);
+  }
+  100% {
+    transform: rotatex(360deg);
+  }
+}
+
+.loader2 > span:nth-child(even) {
+  color: #054d3e;
+}
+.data-card:hover .loader2 > span:nth-child(even) {
+  color: grey;
+}
+.loader2 > span:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.loader2 > span:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.loader2 > span:nth-child(4) {
+  animation-delay: 0.9s;
+}
+
+.loader2 > span:nth-child(5) {
+  animation-delay: 1.2s;
+}
+
+.loader2 > span:nth-child(6) {
+  animation-delay: 1.5s;
+}
+
+.loader2 > span:nth-child(7) {
+  animation-delay: 1.8s;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+@media (max-width: 500px) {
+  .slide_img {
+    width: 70vw;
+    min-width: 90vw;
+    max-width: 90vw;
+    height: 300px;
+  }
+  .overview-section .overview-content,
+  .features-section .features-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .features-section .features-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .features-section,
+  .feature-box,
+  .feature-box a,
+  .feature-box a:visited,
+  .feature-box a:active,
+  .feature-box h3 {
+    text-align: center;
+  }
+}

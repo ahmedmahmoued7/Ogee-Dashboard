@@ -1,0 +1,75 @@
+.update-user-container {
+  height: 100vh;
+  padding: 20px;
+  color: #054d3e;
+}
+
+.update-user-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.user-info {
+  margin-bottom: 20px;
+}
+
+.info-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.info-row label {
+  width: 30%;
+  font-weight: bold;
+}
+
+.info-row input {
+  width: 25%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Button_Update_User {
+  width: 15%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.Button_Manage_Container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.Button_Update_User:hover {
+  background-color: #45a049;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
